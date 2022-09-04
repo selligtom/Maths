@@ -15,8 +15,11 @@ function fibonacciSequence(index){
 }
 
 
+
 // printing all Fibonacci Numbers until index
 
-for (k = 0; k < k; k++) {
-    console.log(`Index [{k}] : {fibonacciSequence(k)}`)
+let yourIndex = 10
+
+for (k = 0; k < yourIndex; k++) {
+    console.log(`Index [${k + 1}] : ${fibonacciSequence(k)}`)
 }
